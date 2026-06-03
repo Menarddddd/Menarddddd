@@ -71,8 +71,11 @@ powered by one clean backend API.
 - 📄 **Cursor-based Pagination** on all list endpoints (scalable, Facebook/Twitter style)
 - 🏗️ **Clean Architecture** — Repository Pattern + Service Layer + Dependency Injection
 - 🐳 **Dockerized** with Docker Compose and PostgreSQL health checks
+- - 🗄️ PostgreSQL (Neon Serverless) + SQLAlchemy ORM + Alembic migrations
+- ⚙️ CI/CD pipeline with GitHub Actions
+- - ☁️ Backend deployed on Fly.io
 
-**Tech:** FastAPI · PostgreSQL · SQLAlchemy (Async) · Redis · JWT · Docker
+**Tech:** FastAPI · PostgreSQL · SQLAlchemy (Async) · Redis · JWT · Docker · Alembic · GitHub Actions
 
 ---
 
