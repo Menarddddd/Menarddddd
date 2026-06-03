@@ -1,4 +1,4 @@
-**Backend Python Developer** building scalable APIs and robust backend systems.
+## **Backend Python Developer** building scalable APIs and robust backend systems.
 
 ---
 
@@ -30,12 +30,19 @@
 ## 💡 What I Build
 
 ✅ RESTful APIs with clean layered architecture (Repository + Service Pattern)
+
 ✅ Secure authentication systems with dual-token JWT and refresh token rotation
+
 ✅ Role-based access control (RBAC) with granular permissions
+
 ✅ High-performance APIs with Redis caching and cursor-based pagination
+
 ✅ Real-time messaging and notification systems
+
 ✅ Database schemas with proper relationships, soft deletes, and migrations
+
 ✅ Production-ready containerized applications with Docker
+
 ✅ Integration tested backends with Pytest and HTTPX
 
 ---
