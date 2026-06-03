@@ -58,7 +58,7 @@ and internal communications all in one place.
 Think of it as a lightweight internal **Slack + Asana + HR Portal**, all
 powered by one clean backend API.
 
-- 📖 API Docs: https://corehub-amber-acorn-510.fly.dev/docs
+- 📖 API Docs: [Swagger UI](📖 API Docs: https://corehub-amber-acorn-510.fly.dev/docs)
 - 🔐 **Dual-token JWT auth** with refresh token rotation and Redis blacklisting
 - 👥 **User & Department Management** with role-based access (Admin, Manager, Member)
 - ✅ **Task System** with assignment rules, priority levels, status tracking,
