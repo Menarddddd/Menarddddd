@@ -14,10 +14,10 @@
 - OAuth2, JWT (Access + Refresh Token Rotation), RBAC
 
 **Caching & Performance**
-- Redis (Upstash), Cursor-based Pagination, Async I/O
+- Redis (Upstash), Cursor-based Pagination, Async I/O, asyncio.gather
 
 **Infrastructure**
-- Docker, Docker Compose
+- Docker, Docker Compose, Fly.io
 
 **Testing**
 - Pytest, HTTPX (Async Integration Tests)
@@ -39,6 +39,10 @@
 
 ✅ Real-time messaging and notification systems
 
+✅ Concurrent data fetching using asyncio.gather for maximum API performance
+
+✅ Dashboard APIs that aggregate multiple data sources in a single request
+
 ✅ Database schemas with proper relationships, soft deletes, and migrations
 
 ✅ Production-ready containerized applications with Docker
@@ -58,7 +62,7 @@ and internal communications all in one place.
 Think of it as a lightweight internal **Slack + Asana + HR Portal**, all
 powered by one clean backend API.
 
-- 📖 API Docs: [Swagger UI](https://corehub-amber-acorn-510.fly.dev/docs)
+- 📖 **Swagger UI:** [Live API Docs](https://corehub-amber-acorn-510.fly.dev/docs)
 - 🔐 **Dual-token JWT auth** with refresh token rotation and Redis blacklisting
 - 👥 **User & Department Management** with role-based access (Admin, Manager, Member)
 - ✅ **Task System** with assignment rules, priority levels, status tracking,
@@ -66,14 +70,16 @@ powered by one clean backend API.
 - 💬 **Messaging System** — DMs and group conversations with real-time
   notifications, unread counts, and message history (like Messenger)
 - 🔔 **Notification System** — auto-triggered on messages and task assignments
-- 📢 **Announcements** — company-wide posts with priority levels and status
+- 📢 **Announcements** — company-wide posts with priority levels and expiration dates
+- 📊 **Dashboard API** — aggregates user profile, task summary, unread notifications,
+  unread messages, and recent announcements in a single concurrent API call using `asyncio.gather`
 - ⚡ **Redis Caching** on all read-heavy endpoints with automatic cache invalidation
 - 📄 **Cursor-based Pagination** on all list endpoints (scalable, Facebook/Twitter style)
 - 🏗️ **Clean Architecture** — Repository Pattern + Service Layer + Dependency Injection
+- 🗄️ PostgreSQL (Neon Serverless) + SQLAlchemy Async ORM + Alembic migrations
 - 🐳 **Dockerized** with Docker Compose and PostgreSQL health checks
-- - 🗄️ PostgreSQL (Neon Serverless) + SQLAlchemy ORM + Alembic migrations
 - ⚙️ CI/CD pipeline with GitHub Actions
-- - ☁️ Backend deployed on Fly.io
+- ☁️ Deployed on Fly.io
 
 **Tech:** FastAPI · PostgreSQL · SQLAlchemy (Async) · Redis · JWT · Docker · Alembic · GitHub Actions
 
@@ -85,7 +91,7 @@ A full-stack personal budget management system with a production-grade
 REST API and React frontend.
 
 - 🌐 **Live Demo:** [Budget Tracker](https://budget-tracker-liart-nu.vercel.app)
-- 📖 **API Docs:** [Swagger UI](https://budget-tracker-api.fly.dev/docs)
+- 📖 **Swagger UI:** [Live API Docs](https://budget-tracker-api.fly.dev/docs)
 - 🔐 OAuth2 + JWT authentication with email verification
   and refresh token rotation
 - 💰 Automatic budget cycle management with PostgreSQL
