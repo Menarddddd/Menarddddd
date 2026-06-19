@@ -5,7 +5,7 @@
 ## 🛠️ Tech Stack
 
 **Backend**
-- Python, FastAPI, SQLAlchemy, Alembic
+- Python, SQL, FastAPI, SQLAlchemy, Alembic
 
 **Database**
 - PostgreSQL, asyncpg
