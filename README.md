@@ -1,118 +1,106 @@
-## **Backend Python Developer** building scalable APIs and robust backend systems.
+# Hi, I'm Menard 👋
+
+Backend Developer transitioning into Cybersecurity | Building secure systems and investigating threats
 
 ---
 
-## 🛠️ Tech Stack
+## 🔐 Current Focus
 
-**Backend**
-- Python, SQL, FastAPI, SQLAlchemy, Alembic
+Actively learning SOC analysis and cybersecurity fundamentals while applying my backend development experience to security operations.
 
-**Database**
-- PostgreSQL, asyncpg
+**Recent Project:**
+- [SOC Investigation Lab](https://github.com/menardddddd/SOC-Investigation-Lab) — Investigated a simulated Windows attack using Splunk, detected brute force, web shell, privilege escalation, and persistence mechanisms. Documented the full incident with MITRE ATT&CK mapping.
 
-**Authentication**
-- OAuth2, JWT (Access + Refresh Token Rotation), RBAC
+---
 
-**Caching & Performance**
-- Redis (Upstash), Cursor-based Pagination, Async I/O, asyncio.gather
+## 🛠️ Skills & Tools
 
-**Infrastructure**
-- Docker, Docker Compose, Fly.io
+**Languages & Scripting**
+Python · Bash · SQL
+
+**Backend & APIs**
+FastAPI · SQLAlchemy · Alembic · Pydantic · REST API Design
+
+**Security & Analysis**
+Splunk · SIEM · Windows Event Logs · Sysmon · Incident Response · MITRE ATT&CK
+
+**Databases**
+PostgreSQL · asyncpg
+
+**Authentication & Security**
+OAuth2 · JWT · RBAC · Access/Refresh Token Rotation
+
+**Performance & Caching**
+Redis · Cursor-based Pagination · Async I/O · asyncio.gather
+
+**Infrastructure & Deployment**
+Docker · Docker Compose · Fly.io
 
 **Testing**
-- Pytest, HTTPX (Async Integration Tests)
+Pytest · HTTPX
 
-**Other**
-- Pydantic v2, asyncio, Git, REST API Design, Logging
+**Operating Systems**
+Windows · Linux (Ubuntu, Kali)
 
----
-
-## 💡 What I Build
-
-✅ RESTful APIs with clean layered architecture (Repository + Service Pattern)
-
-✅ Secure authentication systems with dual-token JWT and refresh token rotation
-
-✅ Role-based access control (RBAC) with granular permissions
-
-✅ High-performance APIs with Redis caching and cursor-based pagination
-
-✅ Real-time messaging and notification systems
-
-✅ Concurrent data fetching using asyncio.gather for maximum API performance
-
-✅ Dashboard APIs that aggregate multiple data sources in a single request
-
-✅ Database schemas with proper relationships, soft deletes, and migrations
-
-✅ Production-ready containerized applications with Docker
-
-✅ Integration tested backends with Pytest and HTTPX
+**Version Control**
+Git · GitHub · GitHub Actions
 
 ---
 
 ## 🚀 Featured Projects
 
-### [CoreHub API](https://github.com/Menarddddd/corehub)
+### [SOC Investigation Lab](https://github.com/YOUR_USERNAME/SOC-Investigation-Lab)
+Investigated a simulated attack on a Windows machine using Splunk.
 
-A production-ready **internal company portal API** — the backend engine for a
-platform where companies manage employees, departments, tasks, announcements,
-and internal communications all in one place.
+- Detected port scan, brute force, web shell, and reverse shell activity
+- Traced privilege escalation from service account to SYSTEM
+- Identified multiple persistence mechanisms (registry, scheduled tasks, backdoor account)
+- Mapped findings to MITRE ATT&CK framework
+- Documented full investigation report with timeline and recommendations
 
-Think of it as a lightweight internal **Slack + Asana + HR Portal**, all
-powered by one clean backend API.
+**Tech:** Splunk · Windows Event Logs · Sysmon · MITRE ATT&CK
 
-- 📖 **Swagger UI:** [Live API Docs](https://corehub-amber-acorn-510.fly.dev/docs)
-- 🔐 **Dual-token JWT auth** with refresh token rotation and Redis blacklisting
-- 👥 **User & Department Management** with role-based access (Admin, Manager, Member)
-- ✅ **Task System** with assignment rules, priority levels, status tracking,
-  and due date enforcement
-- 💬 **Messaging System** — DMs and group conversations with real-time
-  notifications, unread counts, and message history (like Messenger)
-- 🔔 **Notification System** — auto-triggered on messages and task assignments
-- 📢 **Announcements** — company-wide posts with priority levels and expiration dates
-- 📊 **Dashboard API** — aggregates user profile, task summary, unread notifications,
-  unread messages, and recent announcements in a single concurrent API call using `asyncio.gather`
-- ⚡ **Redis Caching** on all read-heavy endpoints with automatic cache invalidation
-- 📄 **Cursor-based Pagination** on all list endpoints (scalable, Facebook/Twitter style)
-- 🏗️ **Clean Architecture** — Repository Pattern + Service Layer + Dependency Injection
-- 🗄️ PostgreSQL (Neon Serverless) + SQLAlchemy Async ORM + Alembic migrations
-- 🐳 **Dockerized** with Docker Compose and PostgreSQL health checks
-- ⚙️ CI/CD pipeline with GitHub Actions
-- ☁️ Deployed on Fly.io
+### [CoreHub API](https://github.com/YOUR_USERNAME/CoreHub-API)
+Production-ready internal company portal backend — managing employees, departments, tasks, announcements, and internal communications.
 
-**Tech:** FastAPI · PostgreSQL · SQLAlchemy (Async) · Redis · JWT · Docker · Alembic · GitHub Actions
+- Dual-token JWT auth with refresh rotation and Redis blacklisting
+- Role-based access control (Admin, Manager, Member)
+- Task system with assignments, priority levels, and due dates
+- Real-time messaging with DMs and group conversations
+- Notification system triggered on messages and task assignments
+- Dashboard API using asyncio.gather for concurrent data fetching
+- Redis caching with automatic invalidation
+- Cursor-based pagination on all list endpoints
+- Clean architecture with Repository Pattern and Service Layer
+- Dockerized with PostgreSQL health checks
+- CI/CD pipeline with GitHub Actions
+
+**Tech:** FastAPI · PostgreSQL · SQLAlchemy · Redis · Docker · JWT · Alembic · GitHub Actions
 
 ---
 
-### [Budget Tracker API](https://github.com/Menarddddd/budget_tracker)
+## 💡 What I Build
 
-A full-stack personal budget management system with a production-grade
-REST API and React frontend.
+✅ Secure authentication systems with proper token rotation and RBAC
 
-- 🌐 **Live Demo:** [Budget Tracker](https://budget-tracker-liart-nu.vercel.app)
-- 📖 **Swagger UI:** [Live API Docs](https://budget-tracker-api.fly.dev/docs)
-- 🔐 OAuth2 + JWT authentication with email verification
-  and refresh token rotation
-- 💰 Automatic budget cycle management with PostgreSQL
-- 🗄️ PostgreSQL (Neon Serverless) + SQLAlchemy ORM + Alembic migrations
-- 📧 Async email processing with FastAPI Background Tasks
-- ⚙️ CI/CD pipeline with GitHub Actions
-- 🐳 Docker + Docker Compose
-- ☁️ Backend deployed on Fly.io | Frontend on Vercel
+✅ High-performance APIs with Redis caching and async I/O
 
-**Tech:** FastAPI · PostgreSQL · SQLAlchemy · Alembic · React · Docker · GitHub Actions
+✅ Security investigations using SIEM tools and log analysis
+
+✅ Clean architecture using Repository + Service patterns
+
+✅ Production-ready containerized applications
+
+✅ Properly tested backends with Pytest
 
 ---
 
-## 📍 Status
+## 📍 About Me
 
 🇵🇭 Philippines-based | 🌏 Open to remote work
-🚀 Actively looking for backend developer opportunities
 
----
+🎯 Looking for: SOC Analyst or Junior Cybersecurity roles where I can apply both my backend development skills and growing security knowledge
 
-## 📫 Let's Connect
-
-💼 [linkedin.com/in/menard-francisco-b21486353](https://www.linkedin.com/in/menard-francisco-b21486353/)
-📧 menardddddd@gmail.com
+📫 **Let's Connect:**
+- LinkedIn: [linkedin.com/in/menard-francisco-b21486353](https://linkedin.com/in/menard-francisco-b21486353)
+- Email: menardddddd@gmail.com
