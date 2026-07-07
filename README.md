@@ -9,7 +9,7 @@ SOC Analyst | Investigating threats and securing systems using SIEM and log anal
 Transitioning into cybersecurity with hands-on experience in security incident investigation and SIEM analysis. Applying my technical background to detect, analyze, and respond to security threats.
 
 **Recent Project:**
-- [SOC Investigation Lab](https://github.com/YOUR_USERNAME/SOC-Investigation-Lab) — Investigated a simulated Windows attack using Splunk, detected brute force, web shell, privilege escalation, and persistence mechanisms. Documented the full incident with MITRE ATT&CK mapping.
+- [SOC Investigation Lab](https://github.com/menarddddd/SOC-Investigation-Lab) — Investigated a simulated Windows attack using Splunk, detected brute force, web shell, privilege escalation, and persistence mechanisms. Documented the full incident with MITRE ATT&CK mapping.
 
 ---
 
