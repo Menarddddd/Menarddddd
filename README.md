@@ -1,49 +1,40 @@
 # Hi, I'm Menard 👋
 
-Backend Developer transitioning into Cybersecurity | Building secure systems and investigating threats
+SOC Analyst | Investigating threats and securing systems using SIEM and log analysis
 
 ---
 
 ## 🔐 Current Focus
 
-Actively learning SOC analysis and cybersecurity fundamentals while applying my backend development experience to security operations.
+Transitioning into cybersecurity with hands-on experience in security incident investigation and SIEM analysis. Applying my technical background to detect, analyze, and respond to security threats.
 
 **Recent Project:**
-- [SOC Investigation Lab](https://github.com/menardddddd/SOC-Investigation-Lab) — Investigated a simulated Windows attack using Splunk, detected brute force, web shell, privilege escalation, and persistence mechanisms. Documented the full incident with MITRE ATT&CK mapping.
+- [SOC Investigation Lab](https://github.com/YOUR_USERNAME/SOC-Investigation-Lab) — Investigated a simulated Windows attack using Splunk, detected brute force, web shell, privilege escalation, and persistence mechanisms. Documented the full incident with MITRE ATT&CK mapping.
 
 ---
 
 ## 🛠️ Skills & Tools
 
-**Languages & Scripting**
-Python · Bash · SQL
-
-**Backend & APIs**
-FastAPI · SQLAlchemy · Alembic · Pydantic · REST API Design
-
 **Security & Analysis**
 Splunk · SIEM · Windows Event Logs · Sysmon · Incident Response · MITRE ATT&CK
 
-**Databases**
-PostgreSQL · asyncpg
-
-**Authentication & Security**
-OAuth2 · JWT · RBAC · Access/Refresh Token Rotation
-
-**Performance & Caching**
-Redis · Cursor-based Pagination · Async I/O · asyncio.gather
-
-**Infrastructure & Deployment**
-Docker · Docker Compose · Fly.io
-
-**Testing**
-Pytest · HTTPX
+**Languages & Scripting**
+Python · Bash · SQL
 
 **Operating Systems**
 Windows · Linux (Ubuntu, Kali)
 
+**Infrastructure**
+Docker · Docker Compose
+
+**Authentication & Security Concepts**
+OAuth2 · JWT · RBAC · Token Rotation
+
 **Version Control**
-Git · GitHub · GitHub Actions
+Git · GitHub
+
+**Other**
+PostgreSQL · FastAPI · Redis · asyncpg
 
 ---
 
@@ -61,37 +52,32 @@ Investigated a simulated attack on a Windows machine using Splunk.
 **Tech:** Splunk · Windows Event Logs · Sysmon · MITRE ATT&CK
 
 ### [CoreHub API](https://github.com/YOUR_USERNAME/CoreHub-API)
-Production-ready internal company portal backend — managing employees, departments, tasks, announcements, and internal communications.
+Production backend system demonstrating secure authentication and access control implementation.
 
 - Dual-token JWT auth with refresh rotation and Redis blacklisting
 - Role-based access control (Admin, Manager, Member)
-- Task system with assignments, priority levels, and due dates
-- Real-time messaging with DMs and group conversations
-- Notification system triggered on messages and task assignments
-- Dashboard API using asyncio.gather for concurrent data fetching
-- Redis caching with automatic invalidation
-- Cursor-based pagination on all list endpoints
-- Clean architecture with Repository Pattern and Service Layer
-- Dockerized with PostgreSQL health checks
-- CI/CD pipeline with GitHub Actions
+- Secure API design with proper authentication flows
+- Docker containerization and deployment
 
-**Tech:** FastAPI · PostgreSQL · SQLAlchemy · Redis · Docker · JWT · Alembic · GitHub Actions
+**Tech:** FastAPI · PostgreSQL · Redis · Docker · JWT
 
 ---
 
-## 💡 What I Build
+## 💡 What I Bring
 
-✅ Secure authentication systems with proper token rotation and RBAC
+✅ Hands-on SIEM investigation experience with Splunk
 
-✅ High-performance APIs with Redis caching and async I/O
+✅ Understanding of the full attack lifecycle from reconnaissance to persistence
 
-✅ Security investigations using SIEM tools and log analysis
+✅ Ability to map incidents to MITRE ATT&CK framework
 
-✅ Clean architecture using Repository + Service patterns
+✅ Python scripting skills for automation and log analysis
 
-✅ Production-ready containerized applications
+✅ Strong grasp of authentication mechanisms and access control
 
-✅ Properly tested backends with Pytest
+✅ Experience with Linux/Windows environments and containerization
+
+✅ Technical background in building secure systems
 
 ---
 
@@ -99,7 +85,7 @@ Production-ready internal company portal backend — managing employees, departm
 
 🇵🇭 Philippines-based | 🌏 Open to remote work
 
-🎯 Looking for: SOC Analyst or Junior Cybersecurity roles where I can apply both my backend development skills and growing security knowledge
+🎯 Looking for: SOC Analyst or Junior Cybersecurity roles where I can detect, investigate, and respond to security incidents
 
 📫 **Let's Connect:**
 - LinkedIn: [linkedin.com/in/menard-francisco-b21486353](https://linkedin.com/in/menard-francisco-b21486353)
