@@ -40,7 +40,7 @@ PostgreSQL · FastAPI · Redis · asyncpg
 
 ## 🚀 Featured Projects
 
-### [SOC Investigation Lab](https://github.com/YOUR_USERNAME/SOC-Investigation-Lab)
+### [SOC Investigation Lab](https://github.com/menarddddd/SOC-Investigation-Lab)
 Investigated a simulated attack on a Windows machine using Splunk.
 
 - Detected port scan, brute force, web shell, and reverse shell activity
@@ -51,7 +51,7 @@ Investigated a simulated attack on a Windows machine using Splunk.
 
 **Tech:** Splunk · Windows Event Logs · Sysmon · MITRE ATT&CK
 
-### [CoreHub API](https://github.com/YOUR_USERNAME/CoreHub-API)
+### [CoreHub API](https://github.com/menarddddd/CoreHub-API)
 Production backend system demonstrating secure authentication and access control implementation.
 
 - Dual-token JWT auth with refresh rotation and Redis blacklisting
