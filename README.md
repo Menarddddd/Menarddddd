@@ -2,7 +2,7 @@
 
 **SOC Analyst | SIEM Analysis | Incident Response | Threat Detection**
 
-Aspiring SOC Analyst transitioning into cybersecurity with hands-on experience 
+SOC Analyst transitioning into cybersecurity with hands-on experience 
 investigating security incidents using SIEM tools and log analysis. Python developer 
 with strong foundation in secure systems design.
 
